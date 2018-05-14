@@ -17,7 +17,7 @@ public class Simulator {
 
 	//n.getBestMove(game);
 	
-	UserInterface ui = new UserInterface(game);
+	//UserInterface ui = new UserInterface(game);
 	//ui.SetUserInterface(game);
 	
 
@@ -64,7 +64,7 @@ for(int round = 0; round < 30; round ++){
 		game.allPlayers.set(3, p4);
 		game.reset();
 	while(true){//training robot0	
-		ui.buttonAction = game.turn+" Training AI 1 #: "+round;
+		//ui.buttonAction = game.turn+" Training AI 1 #: "+round;
 		System.out.println(game.turn+" Training AI 1 #: "+round);
 		
 		
@@ -142,7 +142,7 @@ game.allPlayers.set(0, robot0);
 
 		game.reset();
 	while(true){//train robot1	
-		ui.buttonAction = game.turn+" Training AI 2 #: "+round;
+		//ui.buttonAction = game.turn+" Training AI 2 #: "+round;
 		System.out.println(game.turn+" Training AI 2 #: "+round);
 
 		
@@ -241,7 +241,7 @@ game.allPlayers.set(1, robot1);
 
 		game.reset();
 	while(true){	//training robot2
-		ui.buttonAction = game.turn+" Training AI 3 #:"+round;
+		//ui.buttonAction = game.turn+" Training AI 3 #:"+round;
 		System.out.println(game.turn+" Training AI 3 #:"+round);
 
 		
@@ -328,7 +328,7 @@ game.allPlayers.set(1, p2);
 
 		game.reset();
 	while(true){//train robot1	
-		ui.buttonAction = game.turn+" Training AI 2 #:"+round;
+		//ui.buttonAction = game.turn+" Training AI 2 #:"+round;
 		System.out.println(game.turn+" Training AI 2 #:"+round);
 
 		
@@ -414,7 +414,7 @@ game.allPlayers.set(1, p2);
 
 		game.reset();
 		while(true){//train robot0	
-			ui.buttonAction = game.turn+" Training AI 1 #:"+round;
+			//ui.buttonAction = game.turn+" Training AI 1 #:"+round;
 			System.out.println(game.turn+" Training AI 1 #:"+round);
 
 			
@@ -517,8 +517,8 @@ while(true){
 	
 
 	//System.out.println("Game number: "+gameNum);
-	if(gameNum > 1)
-	ui.buttonAction = "#:"+gameNum+ "-"+((beforeWins*100.0)/((gameNum-1)*1.0))+"%";
+	//if(gameNum > 1)
+	//ui.buttonAction = "#:"+gameNum+ "-"+((beforeWins*100.0)/((gameNum-1)*1.0))+"%";
 	
 	if(gameNum > 1)
 	System.out.println("#:"+gameNum+ "-"+((beforeWins*100.0)/((gameNum-1)*1.0))+"%");
