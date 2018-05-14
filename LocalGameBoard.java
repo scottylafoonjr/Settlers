@@ -2814,7 +2814,7 @@ public void tradeWithBank(int playerCardSelect ,int cardSelect){
 						allPlayers.get(player).cards.remove(ResourceCardType.BRICKRC);
 					}
 					
-					UserInterface.emptyBank();
+				//UserInterface.emptyBank();
 					
 					allPlayers.get(player).cards.add(ResourceCardType.BRICKRC);
 				}
