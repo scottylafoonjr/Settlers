@@ -2736,7 +2736,7 @@ public void tradeWithBank(int playerCardSelect ,int cardSelect){
 					for(int i = 0; i < brick; i++){
 						allPlayers.get(player).cards.remove(ResourceCardType.BRICKRC);
 					}
-					UserInterface.emptyBank();
+					//UserInterface.emptyBank();
 					allPlayers.get(player).cards.add(ResourceCardType.SHEEPRC);
 				}
 				else if(cardSelect == 2){
@@ -2755,7 +2755,7 @@ public void tradeWithBank(int playerCardSelect ,int cardSelect){
 					for(int i = 0; i < brick; i++){
 						allPlayers.get(player).cards.remove(ResourceCardType.BRICKRC);
 					}
-					UserInterface.emptyBank();
+					//UserInterface.emptyBank();
 					allPlayers.get(player).cards.add(ResourceCardType.WHEATRC);	
 				}
 				else if(cardSelect == 3){
@@ -2774,7 +2774,7 @@ public void tradeWithBank(int playerCardSelect ,int cardSelect){
 					for(int i = 0; i < brick; i++){
 						allPlayers.get(player).cards.remove(ResourceCardType.BRICKRC);
 					}
-					UserInterface.emptyBank();
+					//UserInterface.emptyBank();
 					allPlayers.get(player).cards.add(ResourceCardType.FORESTRC);
 				}
 				else if(cardSelect == 4){
@@ -2793,7 +2793,7 @@ public void tradeWithBank(int playerCardSelect ,int cardSelect){
 					for(int i = 0; i < brick; i++){
 						allPlayers.get(player).cards.remove(ResourceCardType.BRICKRC);
 					}
-					UserInterface.emptyBank();
+					//UserInterface.emptyBank();
 					
 					allPlayers.get(player).cards.add(ResourceCardType.STONERC);
 				}
