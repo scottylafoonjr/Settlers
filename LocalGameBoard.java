@@ -1719,7 +1719,7 @@ public boolean placePath(HashSet<Integer> selectedJoints) {
 				allPaths.get(i).color = allPlayers.get(player).color;
 				allPlayers.get(player).cards.remove(ResourceCardType.FORESTRC);
 				allPlayers.get(player).cards.remove(ResourceCardType.BRICKRC);
-				UserInterface.emptySelectedJoints();
+				//UserInterface.emptySelectedJoints();
 				return true;//Can return after finding the right thing
 				
 			}
@@ -2736,7 +2736,7 @@ public void tradeWithBank(int playerCardSelect ,int cardSelect){
 					for(int i = 0; i < brick; i++){
 						allPlayers.get(player).cards.remove(ResourceCardType.BRICKRC);
 					}
-					//UserInterface.emptyBank();
+					////UserInterface.emptyBank();
 					allPlayers.get(player).cards.add(ResourceCardType.SHEEPRC);
 				}
 				else if(cardSelect == 2){
@@ -2755,7 +2755,7 @@ public void tradeWithBank(int playerCardSelect ,int cardSelect){
 					for(int i = 0; i < brick; i++){
 						allPlayers.get(player).cards.remove(ResourceCardType.BRICKRC);
 					}
-					//UserInterface.emptyBank();
+					////UserInterface.emptyBank();
 					allPlayers.get(player).cards.add(ResourceCardType.WHEATRC);	
 				}
 				else if(cardSelect == 3){
@@ -2774,7 +2774,7 @@ public void tradeWithBank(int playerCardSelect ,int cardSelect){
 					for(int i = 0; i < brick; i++){
 						allPlayers.get(player).cards.remove(ResourceCardType.BRICKRC);
 					}
-					//UserInterface.emptyBank();
+					////UserInterface.emptyBank();
 					allPlayers.get(player).cards.add(ResourceCardType.FORESTRC);
 				}
 				else if(cardSelect == 4){
@@ -2793,7 +2793,7 @@ public void tradeWithBank(int playerCardSelect ,int cardSelect){
 					for(int i = 0; i < brick; i++){
 						allPlayers.get(player).cards.remove(ResourceCardType.BRICKRC);
 					}
-					//UserInterface.emptyBank();
+					////UserInterface.emptyBank();
 					
 					allPlayers.get(player).cards.add(ResourceCardType.STONERC);
 				}
@@ -2814,7 +2814,7 @@ public void tradeWithBank(int playerCardSelect ,int cardSelect){
 						allPlayers.get(player).cards.remove(ResourceCardType.BRICKRC);
 					}
 					
-				//UserInterface.emptyBank();
+				////UserInterface.emptyBank();
 					
 					allPlayers.get(player).cards.add(ResourceCardType.BRICKRC);
 				}
@@ -3039,7 +3039,7 @@ public boolean placePath(int index) {
 				allPaths.get(index).color = allPlayers.get(player).color;
 				allPlayers.get(player).cards.remove(ResourceCardType.FORESTRC);
 				allPlayers.get(player).cards.remove(ResourceCardType.BRICKRC);
-				UserInterface.emptySelectedJoints();
+				////UserInterface.emptySelectedJoints();
 				return true;//Can return after finding the right thing
 				
 			}
