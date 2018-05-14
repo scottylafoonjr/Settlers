@@ -21,8 +21,8 @@ import javax.swing.JPanel;
 public class UserInterface extends JPanel{
 	
 	static boolean first = false;
-	final static int screenHeight = (int)(java.awt.Toolkit.getDefaultToolkit().getScreenSize().height*.9);
-	final static int screenWidth = (int)(java.awt.Toolkit.getDefaultToolkit().getScreenSize().width*.8);
+	static int screenHeight = 800;
+	static int screenWidth = 1200;
 	//final static int screenWidth = screenHeight;
 	static boolean continueGame = true;
 	static boolean buyCard = false;
@@ -65,7 +65,8 @@ public class UserInterface extends JPanel{
 
 	
 	public UserInterface() {
-		
+	
+			
 		
 		try {
 			//brickImage = ImageIO.read(new File("brick_hex.png"));
@@ -119,7 +120,7 @@ public class UserInterface extends JPanel{
 	
 	//paint 
 	
-	 public void SetUserInterface(LocalGameBoard game) {
+	 public UserInterface(LocalGameBoard game) {
 		// TODO Auto-generated constructor stub
 		 gameBoard = game;
 	}

@@ -17,8 +17,8 @@ public class Simulator {
 
 	//n.getBestMove(game);
 	
-	UserInterface ui = new UserInterface();
-	ui.SetUserInterface(game);
+	UserInterface ui = new UserInterface(game);
+	//ui.SetUserInterface(game);
 	
 
 	RandomBot ran0 = new RandomBot();

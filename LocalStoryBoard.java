@@ -212,8 +212,8 @@ public class LocalStoryBoard {
 		game.allPlayers.get(3).cards.add(ResourceCardType.STONERC);
 		*/
 		
-		UserInterface ui = new UserInterface();	
-		ui.SetUserInterface(game);
+		UserInterface ui = new UserInterface(game);	
+		//ui.SetUserInterface(game);
 		ui.runLocalInterface();
 		
 		
